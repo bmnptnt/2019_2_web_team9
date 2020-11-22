@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title> Nutrient </title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3><a href="main.html">Nutrient</a></h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>Menu</p>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="care.html">Care</a>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foods</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="foodinfo.html">Help</a>
+                        </li>
+                        <li>
+                            <a href="cfood.html">Carbohydrate</a>
+                        </li>
+                        <li>
+                            <a href="pfood.html">Protain</a>
+                        </li>
+                        <li>
+                            <a href="ffood.html">Fat</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="reference.html">References</a>
+                </li>
+            </ul>
+
+           
+        </nav>
+
+        <!-- 내용  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span> menu </span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="care.html">Care</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="foodinfo.html">Foods</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="reference.html">References</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <img src="avo.jpg" alt="egg">
+            <h2>Avocado</h2>
+            <p>per 100g</p>
+            <p>187Kcal</p>
+            <p>29% Fats, 2.5g Proteins, 0% Cholesterol, 2% Carbohydrate, 21% Dietary fiber</p>
+            <p>1% Vitamin A, 25% Vitamin C, 1% Calcium, 4% Iron </p>
+
+            <div class="line"></div>
+
+            <img src="salmon.jpg" alt="egg">
+            <h2>Salmon</h2>
+            <p>per 100g</p>
+            <p>146Kcal</p>
+            <p>9% Fats, 21.6g Proteins, 15% Cholesterol, 21.6% Carbohydrate, 0% Dietary fiber</p>
+            <p>2% Vitamin A, 2% Vitamin C, 4% Calcium, 3% Iron </p>
+
+            <div class="line"></div>
+
+            <img src="almond.jpg" alt="egg">
+            <h2>Almond</h2>
+            <p>per 10g (10 Almonds)</p>
+            <p>70Kcal</p>
+            <p>10% Fats, 2g Proteins, 0% Cholesterol, 1% Carbohydrate, 4% Dietary fiber</p>
+            <p>0% Vitamin A, 0% Vitamin C, 0% Calcium, 0% Iron </p>
+
+            <div class="line"></div>
+
+            <img src="peanut.jpg" alt="egg">
+            <h2>Peanut Butter</h2>
+            <p>per 16g (1 table spoon)</p>
+            <p>94Kcal</p>
+            <p>12% Fats, 4g Proteins, 0% Cholesterol, 1% Carbohydrate, 4% Dietary fiber</p>
+            <p>0% Vitamin A, 0% Vitamin C, 1% Calcium, 2% Iron </p>
+
+            <div class="line"></div>
+
+            <img src="bean.jpg" alt="egg">
+            <h2>Bean</h2>
+            <p>per 100g</p>
+            <p>67Kcal</p>
+            <p>%1 Fats, 6.1g Proteins, 0% Cholesterol, 4% Carbohydrate, 0% Dietary fiber</p>
+            <p>0% Vitamin A, 31% Vitamin C, 2% Calcium, 11% Iron </p>
+
+            
+        </div>
+    </div>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery function -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
